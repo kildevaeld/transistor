@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0801FA66FEA47FCC513D7FC08FCF50 /* Pods-Transistor_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7F36F1059A23B42936FB51CEE083B /* Pods-Transistor_Example-dummy.m */; };
+		1F6A4F251ED386A48514EA5EBB2D96D6 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B031087BE969855C54941CF003221386 /* PresentationController.swift */; };
+		3D347715F4FDD822F1E6A799ECB4B1B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		4C5FD6D2D21A34FBDB3FD821CA723B1B /* UIViewController+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31D847E2AC90FCA82D5432ADD6FBF80 /* UIViewController+Transitions.swift */; };
+		5527A8840FF4D48759CC5B831E9F6169 /* Transistor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 948945AB16378B19E73FEFE7C67B391E /* Transistor-dummy.m */; };
+		5F9DD6D145708DF4593028515A10B930 /* PresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB61A6227CFE894F654CEDB131E38DA /* PresentationAnimationController.swift */; };
+		67A7454954AFF9C2613C545527163070 /* Transistor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78B60632211D4F4E6C0A26B6E43DB96B /* Transistor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C09A8B8D9BB7F1349FB9F49B99CEFEF /* Pods-Transistor_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89829C550F2F3F8ABD8CE0AA516EF598 /* Pods-Transistor_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76AD2D2BA4D3ADA9BD3CC56057F376E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		A654093B2D2A662CAEF168E620AF08CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		B4AFD4FAA18C3BAFE7AC83C660CD5956 /* TransitionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FEBB986EE9F6E92CCFB7F1B05BD565 /* TransitionDelegate.swift */; };
+		B589EE8ADFD25265D63F0C1195C792E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		CB8614B40680961A4BB657E1B9111017 /* Pods-Transistor_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C837C54C8DD5FC25471C87962DC169FA /* Pods-Transistor_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D493D39D0CE0737FFC1ADC837652E2C8 /* Pods-Transistor_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2499073DCB4439F7EA65D38F9D0F5209 /* Pods-Transistor_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4C2E223546572D4180CC84C4AFB7B3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F36DD6B132834B49E685A050FA2198;
+			remoteInfo = Transistor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		127692002A878BB6283DD369D4E9621E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EFC100B7BB2BE161F06C5870CE5C9C /* Pods-Transistor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Transistor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21992D2FC35405BB28FD7C1A04BBF0D7 /* Pods-Transistor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transistor_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2499073DCB4439F7EA65D38F9D0F5209 /* Pods-Transistor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Transistor_Tests-dummy.m"; sourceTree = "<group>"; };
+		2644F08203CA90A1507846DFD9CFFFB0 /* Transistor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Transistor.xcconfig; sourceTree = "<group>"; };
+		2A765DCB1E87BEDF53794AD149E8E87B /* Pods-Transistor_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Transistor_Example.modulemap"; sourceTree = "<group>"; };
+		4DC7F36F1059A23B42936FB51CEE083B /* Pods-Transistor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Transistor_Example-dummy.m"; sourceTree = "<group>"; };
+		54B55E320B4D750499C8BA60CB4922F1 /* Pods-Transistor_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Transistor_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		55B997BCDB87A347D4F8E8B2BAC4AC24 /* Transistor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Transistor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FEBB986EE9F6E92CCFB7F1B05BD565 /* TransitionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionDelegate.swift; sourceTree = "<group>"; };
+		5641AC789E01848A43E110A8B44AB8D2 /* Pods-Transistor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Transistor_Tests.modulemap"; sourceTree = "<group>"; };
+		6BB61A6227CFE894F654CEDB131E38DA /* PresentationAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PresentationAnimationController.swift; sourceTree = "<group>"; };
+		7006EAE02A5731C7925AF7883CB1184F /* Pods_Transistor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transistor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		773A83C6B7AB61BB661F633C40D5544C /* Transistor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Transistor.modulemap; sourceTree = "<group>"; };
+		78B60632211D4F4E6C0A26B6E43DB96B /* Transistor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transistor-umbrella.h"; sourceTree = "<group>"; };
+		7ACE73CBE504B89B66F9DA1621497AD3 /* Pods-Transistor_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Transistor_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7C09B19601B7A3C05664BF1850D58042 /* Pods-Transistor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Transistor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		806AE6D76F185B978F69F50E336CFF70 /* Pods-Transistor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Transistor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		89829C550F2F3F8ABD8CE0AA516EF598 /* Pods-Transistor_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Transistor_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8E2F5D525C57A3EE2C7070899241C3B5 /* Transistor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transistor-prefix.pch"; sourceTree = "<group>"; };
+		90FBD1568946A58EBE23A56324986456 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D58C7F0A547E1977428D96898EC348 /* Pods_Transistor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transistor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		948945AB16378B19E73FEFE7C67B391E /* Transistor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Transistor-dummy.m"; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A407AEBAD141BCA09D910EA8F81096E5 /* Pods-Transistor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transistor_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B031087BE969855C54941CF003221386 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		B8915D484F137B7C54C828E021F6A1B8 /* Pods-Transistor_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Transistor_Example-resources.sh"; sourceTree = "<group>"; };
+		C837C54C8DD5FC25471C87962DC169FA /* Pods-Transistor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Transistor_Example-umbrella.h"; sourceTree = "<group>"; };
+		D3EF67C02B2E9F14DFCA52386EC0709A /* Pods-Transistor_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Transistor_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DBEA5DF975D219A1EB7A63544F634A76 /* Pods-Transistor_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Transistor_Tests-resources.sh"; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E875717FCD048CDC6C4F90264A9A31B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F73F552E9B27168A517FCA2CF1038B /* Pods-Transistor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transistor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F31D847E2AC90FCA82D5432ADD6FBF80 /* UIViewController+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Transitions.swift"; sourceTree = "<group>"; };
+		FC118B1C196CB94D2BE2AE0173127FF0 /* Pods-Transistor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Transistor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4DB1A56F2FF683CFC3F2A0D66098AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A654093B2D2A662CAEF168E620AF08CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD1BE9EF07A2417B7A8E44A84F4518E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76AD2D2BA4D3ADA9BD3CC56057F376E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE703FB8719E8C46E4DDDED7616AB3CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B589EE8ADFD25265D63F0C1195C792E5 /* Foundation.framework in Frameworks */,
+				3D347715F4FDD822F1E6A799ECB4B1B2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C0AAFC71D00B5FFDF345A9BA0157D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7006EAE02A5731C7925AF7883CB1184F /* Pods_Transistor_Example.framework */,
+				92D58C7F0A547E1977428D96898EC348 /* Pods_Transistor_Tests.framework */,
+				55B997BCDB87A347D4F8E8B2BAC4AC24 /* Transistor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		269BFC98A69772E85DC972BADCFBFC13 /* Transistor */ = {
+			isa = PBXGroup;
+			children = (
+				64D8EA2A8B0D9217AB4B60FBF1B6FBAF /* Classes */,
+			);
+			path = Transistor;
+			sourceTree = "<group>";
+		};
+		26F79288EEFCCAD3903AAEC6B0190C32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				127692002A878BB6283DD369D4E9621E /* Info.plist */,
+				773A83C6B7AB61BB661F633C40D5544C /* Transistor.modulemap */,
+				2644F08203CA90A1507846DFD9CFFFB0 /* Transistor.xcconfig */,
+				948945AB16378B19E73FEFE7C67B391E /* Transistor-dummy.m */,
+				8E2F5D525C57A3EE2C7070899241C3B5 /* Transistor-prefix.pch */,
+				78B60632211D4F4E6C0A26B6E43DB96B /* Transistor-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Transistor";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64D8EA2A8B0D9217AB4B60FBF1B6FBAF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BB61A6227CFE894F654CEDB131E38DA /* PresentationAnimationController.swift */,
+				B031087BE969855C54941CF003221386 /* PresentationController.swift */,
+				55FEBB986EE9F6E92CCFB7F1B05BD565 /* TransitionDelegate.swift */,
+				F31D847E2AC90FCA82D5432ADD6FBF80 /* UIViewController+Transitions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7BDC04B7C1A38DC09BAF9FCD987D6612 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8A8196B2C5F23CE663CE7743668B6BE /* Transistor */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7BDC04B7C1A38DC09BAF9FCD987D6612 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				00C0AAFC71D00B5FFDF345A9BA0157D1 /* Products */,
+				860700B1CB737FA25DA676F1EEC6682D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		860700B1CB737FA25DA676F1EEC6682D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B56E875430F0A2EA999107BE9465B443 /* Pods-Transistor_Example */,
+				8810B2923EA11C7F9CA877ADDE90DCE0 /* Pods-Transistor_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8810B2923EA11C7F9CA877ADDE90DCE0 /* Pods-Transistor_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				90FBD1568946A58EBE23A56324986456 /* Info.plist */,
+				5641AC789E01848A43E110A8B44AB8D2 /* Pods-Transistor_Tests.modulemap */,
+				7C09B19601B7A3C05664BF1850D58042 /* Pods-Transistor_Tests-acknowledgements.markdown */,
+				806AE6D76F185B978F69F50E336CFF70 /* Pods-Transistor_Tests-acknowledgements.plist */,
+				2499073DCB4439F7EA65D38F9D0F5209 /* Pods-Transistor_Tests-dummy.m */,
+				7ACE73CBE504B89B66F9DA1621497AD3 /* Pods-Transistor_Tests-frameworks.sh */,
+				DBEA5DF975D219A1EB7A63544F634A76 /* Pods-Transistor_Tests-resources.sh */,
+				89829C550F2F3F8ABD8CE0AA516EF598 /* Pods-Transistor_Tests-umbrella.h */,
+				FC118B1C196CB94D2BE2AE0173127FF0 /* Pods-Transistor_Tests.debug.xcconfig */,
+				E9F73F552E9B27168A517FCA2CF1038B /* Pods-Transistor_Tests.release.xcconfig */,
+			);
+			name = "Pods-Transistor_Tests";
+			path = "Target Support Files/Pods-Transistor_Tests";
+			sourceTree = "<group>";
+		};
+		B56E875430F0A2EA999107BE9465B443 /* Pods-Transistor_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E875717FCD048CDC6C4F90264A9A31B6 /* Info.plist */,
+				2A765DCB1E87BEDF53794AD149E8E87B /* Pods-Transistor_Example.modulemap */,
+				19EFC100B7BB2BE161F06C5870CE5C9C /* Pods-Transistor_Example-acknowledgements.markdown */,
+				54B55E320B4D750499C8BA60CB4922F1 /* Pods-Transistor_Example-acknowledgements.plist */,
+				4DC7F36F1059A23B42936FB51CEE083B /* Pods-Transistor_Example-dummy.m */,
+				D3EF67C02B2E9F14DFCA52386EC0709A /* Pods-Transistor_Example-frameworks.sh */,
+				B8915D484F137B7C54C828E021F6A1B8 /* Pods-Transistor_Example-resources.sh */,
+				C837C54C8DD5FC25471C87962DC169FA /* Pods-Transistor_Example-umbrella.h */,
+				A407AEBAD141BCA09D910EA8F81096E5 /* Pods-Transistor_Example.debug.xcconfig */,
+				21992D2FC35405BB28FD7C1A04BBF0D7 /* Pods-Transistor_Example.release.xcconfig */,
+			);
+			name = "Pods-Transistor_Example";
+			path = "Target Support Files/Pods-Transistor_Example";
+			sourceTree = "<group>";
+		};
+		B8A8196B2C5F23CE663CE7743668B6BE /* Transistor */ = {
+			isa = PBXGroup;
+			children = (
+				26F79288EEFCCAD3903AAEC6B0190C32 /* Support Files */,
+				269BFC98A69772E85DC972BADCFBFC13 /* Transistor */,
+			);
+			name = Transistor;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4850DCEBC1E348E1D70CADFB20877688 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C09A8B8D9BB7F1349FB9F49B99CEFEF /* Pods-Transistor_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB73226E2A9E97C9C9A73BB0DD9D065 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A7454954AFF9C2613C545527163070 /* Transistor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7874A65B7E2D693C2139E6BFB9923CB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8614B40680961A4BB657E1B9111017 /* Pods-Transistor_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46F36DD6B132834B49E685A050FA2198 /* Transistor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DCA830B965FA3B9919839B2BCD559B /* Build configuration list for PBXNativeTarget "Transistor" */;
+			buildPhases = (
+				D6A0068A3D6EBABCC3810EF87B1D3269 /* Sources */,
+				CE703FB8719E8C46E4DDDED7616AB3CA /* Frameworks */,
+				4EB73226E2A9E97C9C9A73BB0DD9D065 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transistor;
+			productName = Transistor;
+			productReference = 55B997BCDB87A347D4F8E8B2BAC4AC24 /* Transistor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		530B3681AE92D7CC50E41F0701549458 /* Pods-Transistor_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64FA4E461F9476E7120970321E2B14D5 /* Build configuration list for PBXNativeTarget "Pods-Transistor_Example" */;
+			buildPhases = (
+				DBF483B7CFF65A13605E9A4682E58F5F /* Sources */,
+				CDD1BE9EF07A2417B7A8E44A84F4518E /* Frameworks */,
+				7874A65B7E2D693C2139E6BFB9923CB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A21E32619C26B8A1769E6038A65E2D4 /* PBXTargetDependency */,
+			);
+			name = "Pods-Transistor_Example";
+			productName = "Pods-Transistor_Example";
+			productReference = 7006EAE02A5731C7925AF7883CB1184F /* Pods_Transistor_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D43648554AAF9D82AA0343D8119DD418 /* Pods-Transistor_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9CD50EA6053531CF6EAC91E441F55A /* Build configuration list for PBXNativeTarget "Pods-Transistor_Tests" */;
+			buildPhases = (
+				67841C39C5C882FA027E66B48CE664A4 /* Sources */,
+				B4DB1A56F2FF683CFC3F2A0D66098AC2 /* Frameworks */,
+				4850DCEBC1E348E1D70CADFB20877688 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Transistor_Tests";
+			productName = "Pods-Transistor_Tests";
+			productReference = 92D58C7F0A547E1977428D96898EC348 /* Pods_Transistor_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 00C0AAFC71D00B5FFDF345A9BA0157D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				530B3681AE92D7CC50E41F0701549458 /* Pods-Transistor_Example */,
+				D43648554AAF9D82AA0343D8119DD418 /* Pods-Transistor_Tests */,
+				46F36DD6B132834B49E685A050FA2198 /* Transistor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67841C39C5C882FA027E66B48CE664A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D493D39D0CE0737FFC1ADC837652E2C8 /* Pods-Transistor_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6A0068A3D6EBABCC3810EF87B1D3269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9DD6D145708DF4593028515A10B930 /* PresentationAnimationController.swift in Sources */,
+				1F6A4F251ED386A48514EA5EBB2D96D6 /* PresentationController.swift in Sources */,
+				5527A8840FF4D48759CC5B831E9F6169 /* Transistor-dummy.m in Sources */,
+				B4AFD4FAA18C3BAFE7AC83C660CD5956 /* TransitionDelegate.swift in Sources */,
+				4C5FD6D2D21A34FBDB3FD821CA723B1B /* UIViewController+Transitions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBF483B7CFF65A13605E9A4682E58F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0801FA66FEA47FCC513D7FC08FCF50 /* Pods-Transistor_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A21E32619C26B8A1769E6038A65E2D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Transistor;
+			target = 46F36DD6B132834B49E685A050FA2198 /* Transistor */;
+			targetProxy = D4C2E223546572D4180CC84C4AFB7B3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56A841AE178198AF9DC08F2F8D8F4C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F73F552E9B27168A517FCA2CF1038B /* Pods-Transistor_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Transistor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Transistor_Tests/Pods-Transistor_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Transistor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B9EFB929F281B154C69F00CCC5B50DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC118B1C196CB94D2BE2AE0173127FF0 /* Pods-Transistor_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Transistor_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Transistor_Tests/Pods-Transistor_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Transistor_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E25851A8161203BE8919296CF1DBEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A407AEBAD141BCA09D910EA8F81096E5 /* Pods-Transistor_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Transistor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Transistor_Example/Pods-Transistor_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Transistor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67D65DD7D5E0687AA0F77112B0C5F49A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21992D2FC35405BB28FD7C1A04BBF0D7 /* Pods-Transistor_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Transistor_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Transistor_Example/Pods-Transistor_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Transistor_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94CFE05F86492759A2D84674BB254CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2644F08203CA90A1507846DFD9CFFFB0 /* Transistor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Transistor/Transistor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Transistor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Transistor/Transistor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Transistor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B732E4FD223220BC9C4DC164FC7990D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2644F08203CA90A1507846DFD9CFFFB0 /* Transistor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Transistor/Transistor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Transistor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Transistor/Transistor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Transistor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9CD50EA6053531CF6EAC91E441F55A /* Build configuration list for PBXNativeTarget "Pods-Transistor_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9EFB929F281B154C69F00CCC5B50DA /* Debug */,
+				56A841AE178198AF9DC08F2F8D8F4C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64FA4E461F9476E7120970321E2B14D5 /* Build configuration list for PBXNativeTarget "Pods-Transistor_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E25851A8161203BE8919296CF1DBEC8 /* Debug */,
+				67D65DD7D5E0687AA0F77112B0C5F49A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6DCA830B965FA3B9919839B2BCD559B /* Build configuration list for PBXNativeTarget "Transistor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B732E4FD223220BC9C4DC164FC7990D5 /* Debug */,
+				94CFE05F86492759A2D84674BB254CF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

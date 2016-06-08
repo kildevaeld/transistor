@@ -1,0 +1,16 @@
+PODS:
+  - Transistor (0.1.0)
+
+DEPENDENCIES:
+  - Transistor (from `../`)
+
+EXTERNAL SOURCES:
+  Transistor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Transistor: 634e7101b655e9fdba0351ed99bed378e4b26f08
+
+PODFILE CHECKSUM: d4dd574dae4a7dcd150e82dedd641d35bce22a08
+
+COCOAPODS: 1.0.1

@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8F8A2EB2C0D4FC8ADE5FC4EB /* Pods-Transistor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transistor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Transistor_Tests/Pods-Transistor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		99E2D7AD5B58E4C35CE973A8 /* Transistor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Transistor.podspec; path = ../Transistor.podspec; sourceTree = "<group>"; };
+		99E2D7AD5B58E4C35CE973A8 /* Transistor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Transistor.podspec; path = ../Transistor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C2DEEF2AEDCD589C49142EA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E93D9754013B7FBA3A045895 /* Pods_Transistor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transistor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */

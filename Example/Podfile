@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'Transistor_Example' do
+  use_frameworks!
   pod 'Transistor', :path => '../'
 
   target 'Transistor_Tests' do
